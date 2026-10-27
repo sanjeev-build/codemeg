@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bio-gen-frontend.vercel.app/sitemap.xml
+Sitemap: https://sanjeevstack.in/codemeg/sitemap.xml

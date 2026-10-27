@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="msvalidate.01" content="8A8E1A572C612179D3CF32B041F47E14" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free AI Bio, Username & Caption Generator | CodeMeg</title>
+  <meta name="description" content="Generate catchy Instagram bios, unique usernames, and viral captions with AI. 100% free social media content generator with no signup required.">
+  <meta name="keywords" content="AI Bio Generator, AI Username Generator, AI Caption Generator, instagram bio ai, social media generator, CodeMeg">
+  <meta name="author" content="CodeMeg">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://sanjeevstack.in/codemeg/aicontent.html">
 
-  <title>Free AI Bio, Username & Caption Generator</title>
-  <meta name="description" content="Generate unique Instagram bios, usernames, and captions using AI. Free social media content generator. No login required.">
-  <meta name="keywords" content="AI Bio Generator, AI Username Generator, AI Caption Generator">
-  <link rel="canonical" href="https://sanjeev929.github.io/bio_gen_frontend/" />
+  <!-- Search Engine Verification -->
+  <meta name="google-site-verification" content="googlee5f9b00df1cb5160">
+  <meta name="msvalidate.01" content="8A8E1A572C612179D3CF32B041F47E14">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="CodeMeg – Free AI Tools">
-  <meta property="og:description" content="Generate bios, captions & usernames using AI">
-  <meta property="og:image" content="preview.png">
-  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CodeMeg Tools">
+  <meta property="og:url" content="https://sanjeevstack.in/codemeg/aicontent.html">
+  <meta property="og:title" content="Free AI Bio, Username & Caption Generator | CodeMeg">
+  <meta property="og:description" content="Create unique Instagram bios, catchy usernames, and engaging captions instantly using AI with CodeMeg.">
+  <meta property="og:image" content="https://sanjeevstack.in/codemeg/og-image.png">
+  <meta property="og:image:width" content="1000">
+  <meta property="og:image:height" content="1000">
+  <meta property="og:image:alt" content="CodeMeg AI Content Generator">
+  <meta property="og:locale" content="en_US">
 
-  <!-- Icons -->
-  <link rel="icon" href="image/profile/favicon.ico">
-  <link rel="apple-touch-icon" href="image/profile/apple-touch-icon.png">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://sanjeevstack.in/codemeg/aicontent.html">
+  <meta name="twitter:title" content="Free AI Bio, Username & Caption Generator | CodeMeg">
+  <meta name="twitter:description" content="Create unique Instagram bios, catchy usernames, and engaging captions instantly using AI with CodeMeg.">
+  <meta name="twitter:image" content="https://sanjeevstack.in/codemeg/og-image.png">
+
+  <!-- Favicons & App Icons -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Fonts & Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -37,14 +58,14 @@
       <div class="mobile-nav" id="mobileNav">
         <button class="mobile-close" onclick="toggleNav()">✖</button>
         <a href="index.html">Home</a>
-        <a href="#tools">Tools</a>
+        <a href="index.html#tools">Tools</a>
         <a href="faq.html">FAQ</a>
         <a href="contact.html">Contact</a>
       </div>
     <div class="logo">Code<span>Meg</span></div>
     <nav>
       <a href="index.html">Home</a>
-      <a href="#tools">Tools</a>
+      <a href="index.html#tools">Tools</a>
       <a href="faq.html">FAQ</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -63,7 +84,7 @@
 
   <section class="generator">
     <div class="custom-dropdown" id="dropdown">
-      <div class="dropdown-selected" id="dropdownSelected">Bio Generator</div>
+      <div class="dropdown-selected" id="dropdownSelected" role="button" aria-haspopup="listbox" tabindex="0">Bio Generator</div>
       <div class="dropdown-options" id="dropdownOptions">
         <div data-value="bio">Bio Generator</div>
         <div data-value="caption">Caption Generator</div>
@@ -71,7 +92,7 @@
       </div>
     </div>
 
-    <textarea id="prompt" placeholder="Type something..."></textarea>
+    <textarea id="prompt" placeholder="Type what you want your bio, caption or username to be about..." aria-label="Prompt for AI Generator"></textarea>
     <button id="generate-btn">Generate</button>
 
     <div id="result-section" style="display:none;">
@@ -95,9 +116,9 @@
   <div class="footer-inner">
     <div>© 2026 CodeMeg</div>
     <div class="footer-center">
-      <a href="https://www.youtube.com/@codemeg"><i class="fab fa-youtube"></i></a>
-      <a href="https://www.instagram.com/codemeg.tech/"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://www.youtube.com/@codemeg" target="_blank" rel="noopener noreferrer" aria-label="CodeMeg on YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.instagram.com/codemeg.tech/" target="_blank" rel="noopener noreferrer" aria-label="CodeMeg on Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="CodeMeg on Twitter"><i class="fab fa-x-twitter"></i></a>
     </div>
     <div class="footer-right">
       <a href="privacy.html">Privacy Policy</a>
@@ -110,7 +131,7 @@
 /* ================= LIMIT ================= */
 const DAILY_LIMIT = 6;
 
- function toggleNav() {
+function toggleNav() {
   document.getElementById("mobileNav").classList.toggle("open");
 }
 
@@ -170,68 +191,6 @@ document.addEventListener("click", e => {
 /* ================= GENERATE ================= */
 document.getElementById("generate-btn").onclick = async () => {
   const prompt = document.getElementById("prompt").value.trim();
-  if (!prompt) return alert("Enter prompt");
-
-  if (getRequestCount() >= DAILY_LIMIT) {
-    alert("Daily limit reached");
-    return;
-  }
-
-  try {
-    const res = await fetch(`https://bio-gen.onrender.com/${selectedTool}`, {
-      method:"POST",
-      headers:{ "Content-Type":"application/json" },
-      body:JSON.stringify({ prompt })
-    });
-
-    const data = await res.json();
-    document.getElementById("result").textContent = data.result || "No result";
-    document.getElementById("result-section").style.display = "block";
-
-    incrementRequestCount();
-    updateRemaining();
-  } catch (err) {
-    alert("Server error. Try again later.");
-  }
-};
-
-/* ================= COPY ================= */
-document.getElementById("copy-btn").onclick = () => {
-  navigator.clipboard.writeText(document.getElementById("result").textContent);
-  alert("Copied!");
-};
-
-/* ================= SAVE ================= */
-document.getElementById("save-btn").onclick = () => {
-  const text = document.getElementById("result").textContent;
-  if (!text) return;
-
-  const saved = JSON.parse(localStorage.getItem("saved_items")) || [];
-  saved.push(text);
-  localStorage.setItem("saved_items", JSON.stringify(saved));
-  loadSaved();
-};
-
-/* ================= LOAD SAVED ================= */
-function loadSaved() {
-  const list = document.getElementById("saved-list");
-  list.innerHTML = "";
-
-  const saved = JSON.parse(localStorage.getItem("saved_items")) || [];
-  saved.forEach(item => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    list.appendChild(li);
-  });
-}
-
-/* ================= CLEAR SAVED ================= */
-document.getElementById("clear-saved").onclick = () => {
-  localStorage.removeItem("saved_items");
-  loadSaved();
-};
-document.getElementById("generate-btn").onclick = async () => {
-  const prompt = document.getElementById("prompt").value.trim();
   const generateBtn = document.getElementById("generate-btn");
 
   if (!prompt) {
@@ -279,18 +238,83 @@ document.getElementById("generate-btn").onclick = async () => {
   }
 };
 
+/* ================= COPY ================= */
+document.getElementById("copy-btn").onclick = () => {
+  navigator.clipboard.writeText(document.getElementById("result").textContent);
+  alert("Copied!");
+};
+
+/* ================= SAVE ================= */
+document.getElementById("save-btn").onclick = () => {
+  const text = document.getElementById("result").textContent;
+  if (!text) return;
+
+  const saved = JSON.parse(localStorage.getItem("saved_items")) || [];
+  saved.push(text);
+  localStorage.setItem("saved_items", JSON.stringify(saved));
+  loadSaved();
+};
+
+/* ================= LOAD SAVED ================= */
+function loadSaved() {
+  const list = document.getElementById("saved-list");
+  list.innerHTML = "";
+
+  const saved = JSON.parse(localStorage.getItem("saved_items")) || [];
+  saved.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent = item;
+    list.appendChild(li);
+  });
+}
+
+/* ================= CLEAR SAVED ================= */
+document.getElementById("clear-saved").onclick = () => {
+  localStorage.removeItem("saved_items");
+  loadSaved();
+};
 </script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "CodeMeg Tools",
-  "url": "https://codemeg.com/",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://codemeg.com/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "AI Bio, Username & Caption Generator",
+      "url": "https://sanjeevstack.in/codemeg/aicontent.html",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript. Requires HTML5.",
+      "description": "Generate unique Instagram bios, catchy usernames, and creative captions with AI. Free online content generator with no login required.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "CodeMeg",
+        "url": "https://sanjeevstack.in/codemeg/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sanjeevstack.in/codemeg/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "AI Bio & Caption Generator",
+          "item": "https://sanjeevstack.in/codemeg/aicontent.html"
+        }
+      ]
+    }
+  ]
 }
 </script>
 
